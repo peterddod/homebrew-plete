@@ -4,29 +4,29 @@
 class Plete < Formula
   desc "Global git repo index and worktree manager"
   homepage "https://github.com/peterddod/plete"
-  version "0.16.0"
+  version "0.17.0"
   license "MIT"
   head "https://github.com/peterddod/plete.git", branch: "main"
 
   on_macos do
     on_arm do
-      url "https://github.com/peterddod/plete/releases/download/v0.16.0/plete-v0.16.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5397179501d4dc3d86b7b2daac5abc97c72f7b2ed7a6daace2309238deaf33c0"
+      url "https://github.com/peterddod/plete/releases/download/v0.17.0/plete-v0.17.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7718d6e9b99985862f169652c47c49b070c016bbe124e738b3a7c72725074665"
     end
     on_intel do
-      url "https://github.com/peterddod/plete/releases/download/v0.16.0/plete-v0.16.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c717188a54a8f3f3a867d6312d32a3d1f70a8b55d9eccea1c3fed22eb2fd4a47"
+      url "https://github.com/peterddod/plete/releases/download/v0.17.0/plete-v0.17.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6ec21d6d8d70869896612c1a64bdae703c42d521c8c9416797ad309ef92e5017"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/peterddod/plete/releases/download/v0.16.0/plete-v0.16.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "81d12871662e66bbe7c84ce4f05fbbcdf53ce60c34133e3f5cba2e07f529ceca"
+      url "https://github.com/peterddod/plete/releases/download/v0.17.0/plete-v0.17.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "e832664b8cb4197417f3f5009a254c6a73d2e4b0fa45fd9512da40d406f7f3c0"
     end
     on_intel do
-      url "https://github.com/peterddod/plete/releases/download/v0.16.0/plete-v0.16.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "847463d254556679f09d11932e42ad7d4a0342eb445eacc6bc625160e89b2b66"
+      url "https://github.com/peterddod/plete/releases/download/v0.17.0/plete-v0.17.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "df984ec468d4a9bc1c786ee695edefd57113c4ad61bc5bb18911ace2f4cf0792"
     end
   end
 
